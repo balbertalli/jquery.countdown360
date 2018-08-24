@@ -1,11 +1,11 @@
-# jQuery countdown360
+# jQuery countdown360 - High DPI Edition
 
 [![Build Status](https://travis-ci.org/johnschult/jquery.countdown360.svg)](https://travis-ci.org/johnschult/jquery.countdown360)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/johnschult/jquery.countdown360?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### A simple countdown timer in seconds
 
-This plugin provides a simple circular countdown timer with customizable settings.
+This plugin provides a simple circular countdown timer with customizable settings. Support for High DPI displays has been added to this fork.
 
 [Check out a Demo](http://jsfiddle.net/johnschult/gs3WY/)
 
