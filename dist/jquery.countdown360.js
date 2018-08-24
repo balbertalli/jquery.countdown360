@@ -99,6 +99,12 @@
     },
 
     _initPen: function (canvas) {
+      var dpr = window.devicePixelRatio || 1;
+      canvas.width = this.settings.width * dpr;
+      canvas.height = this.settings.height * dpr;
+      canvas.style.width = this.settings.width + "px";
+      canvas.style.height = this.settings.height + "px";
+      canvas.getContext("2d").scale(dpr, dpr);
       this.pen              = canvas.getContext("2d");
       this.pen.lineWidth    = this.settings.strokeWidth;
       this.pen.strokeStyle  = this.settings.strokeStyle;
